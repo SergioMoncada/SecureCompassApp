@@ -11,7 +11,7 @@ import DetailsScreen from './src/screens/DetailsScreen';
 
 const Stack = createNativeStackNavigator();
 
-// Configurar cómo se muestran las notificaciones
+// Configurar cómo se muestran las notificaciones, no funciona porque la version de expo es 53 y nosotros trabajamos en la 54 xd
 Notifications.setNotificationHandler({
   handleNotification: async () => ({
     shouldShowAlert: true,
